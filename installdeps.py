@@ -30,14 +30,14 @@ print(deps_list[cmd]["pkgs"])
 
 
 process = subprocess.run(
-    ["sudo", "apt", "update"],
+    ["sudo", "DEBIAN_FRONTEND=noninteractive", "apt", "update"],
     stdout=subprocess.PIPE,
     universal_newlines=True,
     check=False,
 )
 print(process)
 
-command = ["sudo", "apt", "install", "-y"]
+command = ["sudo", "DEBIAN_FRONTEND=noninteractive", "apt", "install", "-y"]
 
 command.extend(deps_list[cmd]["pkgs"])
 
