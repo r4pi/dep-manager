@@ -125,7 +125,9 @@
       "libglpk-dev",
       "libpoppler-cpp-dev",
       "libgsl0-dev",
-      "cargo"
+      "cargo",
+      "libprotobuf-dev",
+      "protobuf-compiler"
     ]
   },
   "utils": {
