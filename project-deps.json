@@ -127,7 +127,10 @@
       "libgsl0-dev",
       "cargo",
       "libprotobuf-dev",
-      "protobuf-compiler"
+      "protobuf-compiler",
+      "pandoc",
+      "cmake",
+      "libjq-dev"
     ]
   },
   "utils": {
@@ -137,7 +140,8 @@
       "htop",
       "jq",
       "s3cmd",
-      "tree"
+      "tree",
+      "vim"
     ]
   }
 }
