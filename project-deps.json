@@ -130,7 +130,15 @@
       "protobuf-compiler",
       "pandoc",
       "cmake",
-      "libjq-dev"
+      "libjq-dev",
+      "libgeos-dev",
+      "libudunits2-dev",
+      "libgdal-dev",
+      "gdal-bin",
+      "libproj-dev",
+      "libsqlite3-dev",
+      "libnode-dev",
+      "libopenmpi-dev"
     ]
   },
   "utils": {
