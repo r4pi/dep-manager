@@ -7,6 +7,7 @@
       "autopoint",
       "autotools-dev",
       "bison",
+      "cmake",
       "debhelper",
       "default-jdk",
       "default-jdk-headless",
@@ -110,13 +111,20 @@
   "packages": {
     "description": "R package system dependencies",
     "pkgs": [
+      "cargo",
       "libarchive-dev",
       "libgit2-dev",
+      "libjq-dev",
+      "libmagick++-dev",
       "libsodium-dev",
       "libxml2-dev",
       "libcurl4-openssl-dev",
       "libgdal-dev",
-      "libudunits2-dev"
+      "libgmp-dev",
+      "libmpfr-dev",
+      "libpoppler-cpp-dev",
+      "libudunits2-dev",
+      "libv8-dev"
     ]
   },
   "utils": {
@@ -126,7 +134,9 @@
       "htop",
       "jq",
       "s3cmd",
-      "tree"
+      "task-spooler",
+      "tree",
+      "weex"
     ]
   }
 }
