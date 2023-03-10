@@ -1,5 +1,14 @@
 # R4Pi Project dependency management
 
+## This repo is now archived.
+
+Now that the project has increased in complexity substantially, it made sense to
+move our environment management back to a more robust tool, so we've moved back
+to Ansible. Our playbooks are available in the
+[r4pi_ansible](https://github.com/r4pi/r4pi_ansible) repo.
+
+## Overview
+
 We used to do this with ansible, but it was unnecessarily difficult to run in
 the local environment, so we wrote our own.
 
